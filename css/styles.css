@@ -10142,3 +10142,13 @@ section.resume-section .resume-section-content {
 .logos:hover {
   opacity: 1.0;
 }
+
+.flags {
+  border: 1px solid #000;
+  opacity: 0.35;
+  transition: opacity 1s;
+}
+
+.flags:hover {
+  opacity: 1.0;
+}
