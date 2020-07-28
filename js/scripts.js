@@ -40,3 +40,22 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+
+function summonTextFlag(flagId) {
+    if (flagId == 0) {
+        document.getElementById("langPara").innerHTML = "Bahasa Indonesia<br>C1/Native<br>Minor understanding in Basa Jawa/Javanese";
+    }
+    else if (flagId == 1) {
+        document.getElementById("langPara").innerHTML = "English<br>C1/Native";
+    }
+    else if (flagId == 2) {
+        document.getElementById("langPara").innerHTML = "中文<br>B2/High Working Proficiency<br>Proficient in Mandarin Chinese while understanding a bit of Cantonese and Hokkien.<br>Literate in Simplified and Traditional to some extent.";
+    }
+    else if (flagId == 3) {
+        document.getElementById("langPara").innerHTML = "Deutsch<br>B1/Low Working Proficiency";
+    }
+    else if (flagId == 4) {
+        document.getElementById("langPara").innerHTML = "日本語<br>A1/Beginners<br>Able to read Hiragana, Katakana and some Kanji.";
+    }
+}
