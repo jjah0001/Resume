@@ -1,0 +1,2 @@
+# Interactive Resume
+This is a resume that I have created in 2020 during lockdown. Note that the resume is no longer updated but if you wish to have a look at it, please go to https://github.com/jjah0001/Resume
